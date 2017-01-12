@@ -66,14 +66,32 @@ header{
 
 }
 
+h1 {
+  font-size: 50px;
+  color: #C0AAD8;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
 .top-section {
   float: left;
   background-color: #6DABFF;
   margin: 0 1.5%;
   width: 30%;
+  border-radius: 6px;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  box-sizing: border-box;
+  padding: 25px 15px;
 }
 
 footer{
+  margin-top: 40px;
+  margin-right: 30px;
+  text-align: right;
   margin-bottom: 0;
   clear: both;
 }
