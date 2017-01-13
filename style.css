@@ -54,7 +54,7 @@ table {
 */
 
 h1, h3, h4, h5, p {
-  margin-bottom: 22px;
+  margin-bottom: 10px;
 }
 
 body{
@@ -62,8 +62,12 @@ body{
 }
 
 
-header{
-
+.masthead {
+  line-height: 50px;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin-bottom: 25px;
+  display: inline-block;
 }
 
 h1 {
@@ -77,12 +81,24 @@ h4 {
   font-weight: lighter;
 }
 
+.quote {
+  color: #FF6FFF;
+  line-height: 30px;
+  float: right;
+}
+
+.sections {
+  clear: both;
+}
+
 .top-section {
   float: left;
-  background-color: #6DABFF;
   margin: 0 1.5%;
   width: 30%;
-  border-radius: 6px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #FF0DFF;
+  border-width: 1px;
   font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
   box-sizing: border-box;
   padding: 25px 15px;
