@@ -58,18 +58,27 @@ h1, h3, h4, h5, p {
 }
 
 body{
-	background-color: #406C9A;
+	background-color: #284168;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
 }
 
+.quote{
+	float: right;
+	padding-right: 15px;
+}
 
 .masthead {
 	border-bottom: 1px solid #fff;
 	padding-bottom: 20px;
+	padding-left: 10px;
+	color: #FFD71F;
 }
 
 
 .content{
 	/*margin-top: 15px; */
+	clear: both;
 }
 
 .col-1-3{
@@ -98,8 +107,8 @@ body{
 
 h1 {
   font-size: 50px;
-  color: #C0AAD8;
   font-weight: 500;
+	margin-top: 15px;
 }
 
 
